@@ -23,9 +23,9 @@
 using System;
 
 namespace DiceSimulation; // calling the project to get the contents of the other file
-internal class Program // container
+public class Program // container
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
         Console.WriteLine("Welcome to the dice throwing simulator!");
 
